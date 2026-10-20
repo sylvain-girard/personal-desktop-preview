@@ -1,0 +1,1 @@
+import{t as e}from"./resume-download.Ck3Pv0QD.js";e(),document.addEventListener(`astro:page-load`,e);

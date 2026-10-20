@@ -1,0 +1,1 @@
+function e(e,t,n){if(![e,t,n].every(e=>Number.isFinite(e)&&e>0))return null;let r=Array.from({length:10},(r,i)=>{let a=i-1;return{property:`--type-step-${a<0?`down-1`:a}`,value:Math.round(e*t**a/n)*n}});return r.every(({value:e})=>Number.isFinite(e)&&e>0)?r:null}export{e as t};
